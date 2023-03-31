@@ -6,6 +6,7 @@ const y = document.querySelector('#y');
 x.onclick = () => {
     sideBar.classList.toggle('hide');
 };
+
 y.onclick = () => {
     sideBar.classList.toggle('hide');
 };

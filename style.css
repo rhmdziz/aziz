@@ -17,16 +17,24 @@ body {
     background: #ffffff;
     background: linear-gradient(90deg, rgb(224, 253, 253) 0%, rgb(237, 249, 249) 60%, rgb(242, 230, 255) 100%);
 }
+hr {
+    background: linear-gradient(to right, rgb(242, 230, 255), rgb(215, 214, 214), rgb(224, 253, 253));
+  height: 1px;
+  border: none;
+}
 
 a {
     color: var(--white);
     text-decoration: none;
 }
+li {
+    margin-left: -1rem ;
+}
 
 /* MAIN */
 main {
     color: var(--black);
-    margin: 2rem 27% 2rem 4rem;
+    margin: 0 27% 0 4rem;
     font-size: 0.8rem;
 }
 .profile h1 {
@@ -36,7 +44,7 @@ main {
 .profile {
     display: flex;
     align-items: center;
-    padding: 1rem 0;
+    padding: 2rem 0;
 }
 .profile .title {
     margin: 0;
@@ -125,9 +133,6 @@ main h2 {
     padding: 0.6rem 0;
     color: var(--brown);
 }
-.sideBar li {
-    margin-left: -1rem ;
-}
 .sideBar a:hover {
     color: var(--brown);
 }
@@ -152,6 +157,7 @@ main h2 {
 footer {
     font-size: 0.7rem;
     font-weight: 500;
+    padding: 4rem 0 0 0;
 }
 footer p {
     padding: 0.1rem 0;
@@ -161,7 +167,7 @@ footer p {
 /* RESPONSIVE */
 @media (max-width: 1000px) {
     main {
-        margin: 2rem 4rem;
+        margin: 0 4rem;
     }
     .sideBar {
         max-width: 40%;
@@ -174,6 +180,12 @@ footer p {
 }
 
 @media (max-width: 578px) {
+    .profile h1 {
+        font-size: 1.8rem;
+    }
+    .container h3 {
+        font-size: 1.4rem;
+    }
     .sideBar {
         max-width: 95%;
     }
@@ -181,7 +193,7 @@ footer p {
         padding: 0.8rem 2rem;
     }
     main {
-        margin: 2rem;
+        margin: 0 2rem;
     }
 }
 
