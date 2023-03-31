@@ -175,7 +175,7 @@ footer p {
 
 @media (max-width: 578px) {
     .sideBar {
-        max-width: 90%;
+        max-width: 95%;
     }
     .sideBarItem {
         padding: 0.8rem 2rem;
