@@ -119,14 +119,6 @@ main h2 {
     text-align: justify;
     line-height: 1.4rem;
 }
-.sideBar .sideBarHead {
-    padding: 0.8rem 4rem 0.8rem 2rem;
-    display: none;
-    color: var(--brown);
-}
-.sideBar .sideBarHead h1 {
-    font-weight: 600;
-}
 .sideBar h2 {
     font-size: 1rem;
     font-weight: 500;
@@ -191,10 +183,6 @@ footer p {
     main {
         margin: 2rem;
     }
-    .sideBar .sideBarHead {
-        display: block;
-    }
-
 }
 
 
