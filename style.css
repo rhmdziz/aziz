@@ -97,6 +97,7 @@ main h2 {
     font-size: 1.4rem;
     padding: 2rem 2rem 0;
     animation-name: leftMove;
+    color: #ff0000;
     animation-duration: 1s;
     animation-iteration-count: infinite;
 }
@@ -181,7 +182,7 @@ footer p {
 
 @media (max-width: 578px) {
     .profile h1 {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
     }
     .container h3 {
         font-size: 1.4rem;
