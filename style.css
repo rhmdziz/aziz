@@ -15,7 +15,7 @@
 }
 body {
     background: #ffffff;
-    background: linear-gradient(90deg, rgb(224, 253, 253) 0%, rgb(237, 249, 249) 60%, rgb(242, 230, 255) 100%);
+    background: linear-gradient(90deg, #e0fdfd 0%, #edf9f9 60%, #f2e6ff 100%);
 }
 hr {
     background: linear-gradient(to right, rgb(242, 230, 255), rgb(215, 214, 214), rgb(224, 253, 253));
@@ -49,6 +49,9 @@ main {
 .profile .title {
     margin: 0;
     padding: 0 1rem;
+}
+.profile .title a {
+    color: var(--black);
 }
 .profile img {
     margin: 0;
