@@ -16,6 +16,7 @@
 body {
     background: #ffffff;
     background: linear-gradient(90deg, #e0fdfd 0%, #edf9f9 60%, #f2e6ff 100%);
+    /* max-width: calc(595px * 2); */
 }
 hr {
     background: linear-gradient(to right, rgb(242, 230, 255), rgb(215, 214, 214), rgb(224, 253, 253));
@@ -33,10 +34,13 @@ li {
 
 /* MAIN */
 main {
+    
     color: var(--black);
-    margin: 0 27% 0 4rem;
+    margin: 0 27%;
     font-size: 0.8rem;
 }
+
+
 .profile h1 {
     font-weight: 700;
     font-size: 2rem;
@@ -50,14 +54,25 @@ main {
     margin: 0;
     padding: 0 1rem;
 }
-.profile .title a {
-    color: var(--black);
-}
+
 .profile img {
     margin: 0;
     width: 6rem;
     border-radius: 100%;
     box-shadow: 2px 4px 8px #aaaaaa88;
+}
+
+.profile button {
+    background: transparent;
+    border: 1px var(--brown2) solid;
+    margin-top: 0.4rem;
+}
+.profile button:hover {
+    box-shadow: 1px 1px 4px #00000022;
+}
+.profile .title button a {
+    font-size: 0.7rem;
+    color: var(--brown2);
 }
 
 .container {
@@ -123,7 +138,7 @@ main h2 {
     color: var(--white);
     position: absolute;
     top: 0;
-    right: 0;
+    right: -100%;
     min-height: 100%;
     max-width: 25%;
     font-size: 0.75rem;
@@ -157,8 +172,8 @@ main h2 {
 }
 
 .hide {
-    right: -100%;
-    transition: 0.6s;
+    right: 0;
+    transition: 0.4s;
 }
 
 
