@@ -36,8 +36,8 @@ li {
 main {
     
     color: var(--black);
-    margin: 0 27%;
-    font-size: 0.8rem;
+    margin: 0 25%;
+    font-size: 0.9rem;
 }
 
 
@@ -104,10 +104,16 @@ main h2 {
     padding: 0.4rem 0;
 }
 .container .desc {
-    line-height: 1.2rem;
+    line-height: 1.3rem;
+    letter-spacing: 0.5px;
     padding: 0 0 1rem;
     text-align: justify;
 }
+.desc span {
+    font-weight: 600;
+    font-style: italic;
+}
+
 .container a {
     color: var(--black);
 }
@@ -185,8 +191,8 @@ main h2 {
     top: 0;
     right: -100%;
     min-height: 100%;
-    max-width: 25%;
-    font-size: 0.75rem;
+    max-width: 24%;
+    font-size: 0.8rem;
     padding: 1rem 0;
     position: fixed;
     transition: 0.2s;
