@@ -36,7 +36,7 @@ li {
 main {
     
     color: var(--black);
-    margin: 0 25%;
+    margin: 0 24%;
     font-size: 0.9rem;
 }
 
@@ -191,7 +191,7 @@ main h2 {
     top: 0;
     right: -100%;
     min-height: 100%;
-    max-width: 24%;
+    max-width: 23%;
     font-size: 0.8rem;
     padding: 1rem 0;
     position: fixed;
@@ -232,10 +232,13 @@ main h2 {
 footer {
     font-size: 0.7rem;
     font-weight: 500;
-    padding: 4rem 0 0 0;
+    padding: 2.8rem 0 1.2rem 0;
+    /* background-color: var(--black); */
+    /* color: var(--white); */
 }
 footer p {
     padding: 0.1rem 0;
+    /* text-align: center; */
 }
 
 
